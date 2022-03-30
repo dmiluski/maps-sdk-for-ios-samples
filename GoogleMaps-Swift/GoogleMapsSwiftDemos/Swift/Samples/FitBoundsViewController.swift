@@ -55,6 +55,9 @@ class FitBoundsViewController: UIViewController {
     markers.forEach { marker in
       marker.map = mapView
     }
+
+    // Dane - Add FitToBounds to load to focus on the correct region
+    fitBounds()
   }
 
   @objc func fitBounds() {
