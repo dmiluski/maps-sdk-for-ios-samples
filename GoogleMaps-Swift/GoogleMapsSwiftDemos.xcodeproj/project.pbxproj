@@ -360,7 +360,6 @@
 			children = (
 				C7209C93B04D2F92A3381078 /* Pods-GoogleMapsSwiftDemos.default.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -418,6 +417,11 @@
 		5874A4B608088BA842B934C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				TargetAttributes = {
+					56AB213E97CDD413D8EDA2B0 = {
+						DevelopmentTeam = 5LL7P8E8RA;
+					};
+				};
 			};
 			buildConfigurationList = C0C7530177213989B18ED3FC /* Build configuration list for PBXProject "GoogleMapsSwiftDemos" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -610,6 +614,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5LL7P8E8RA;
 				INFOPLIST_FILE = ./GoogleMapsSwiftDemos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
